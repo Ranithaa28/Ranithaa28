@@ -125,10 +125,6 @@ ServiceNow administration, workflow automation with Flow Designer, Agentic AI ba
   <img src="./profile/streak.svg" alt="GitHub Streak"/>
 </p>
 
-<p align="center">
-  <img src="./profile/trophy.svg" alt="GitHub Trophies"/>
-</p>
-
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ranithaa28/Ranithaa28/output/github-contribution-grid-snake-dark.svg">
