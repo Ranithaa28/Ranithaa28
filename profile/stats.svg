@@ -1,0 +1,12 @@
+<svg width="420" height="190" viewBox="0 0 420 190" xmlns="http://www.w3.org/2000/svg">
+<rect width="420" height="190" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="20" y="32" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#58a6ff">GitHub Stats</text>
+<text x="20" y="65" font-family="Segoe UI, sans-serif" font-size="14" fill="#8b949e">Total Stars</text>
+<text x="400" y="65" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#c9d1d9" text-anchor="end">0</text>
+<text x="20" y="93" font-family="Segoe UI, sans-serif" font-size="14" fill="#8b949e">Public Repos</text>
+<text x="400" y="93" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#c9d1d9" text-anchor="end">11</text>
+<text x="20" y="121" font-family="Segoe UI, sans-serif" font-size="14" fill="#8b949e">Followers</text>
+<text x="400" y="121" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#c9d1d9" text-anchor="end">1</text>
+<text x="20" y="149" font-family="Segoe UI, sans-serif" font-size="14" fill="#8b949e">Total Contributions</text>
+<text x="400" y="149" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#c9d1d9" text-anchor="end">130</text>
+</svg>

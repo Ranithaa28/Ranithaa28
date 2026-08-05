@@ -1,0 +1,11 @@
+<svg width="420" height="140" viewBox="0 0 420 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="140" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text x="71" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#58a6ff" text-anchor="middle">130</text>
+  <text x="71" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Total</text>
+  <text x="210" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#f78166" text-anchor="middle">2</text>
+  <text x="210" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Current Streak</text>
+  <text x="349" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#3fb950" text-anchor="middle">5</text>
+  <text x="349" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Longest Streak</text>
+  <line x1="139" y1="20" x2="139" y2="120" stroke="#30363d"/>
+  <line x1="277" y1="20" x2="277" y2="120" stroke="#30363d"/>
+</svg>
