@@ -1,11 +1,28 @@
 <svg width="420" height="140" viewBox="0 0 420 140" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.55; } }
+    .col { opacity: 0; animation: fadeInUp 0.6s ease-out forwards; }
+    .flame { animation: pulse 1.8s ease-in-out infinite; transform-origin: center; }
+  </style>
   <rect width="420" height="140" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <text x="71" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#58a6ff" text-anchor="middle">130</text>
-  <text x="71" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Total</text>
-  <text x="210" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#f78166" text-anchor="middle">2</text>
-  <text x="210" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Current Streak</text>
-  <text x="349" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#3fb950" text-anchor="middle">5</text>
-  <text x="349" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Longest Streak</text>
+
+  <g class="col" style="animation-delay:0.05s">
+    <text x="71" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#58a6ff" text-anchor="middle">130</text>
+    <text x="71" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Total</text>
+  </g>
+
+  <g class="col" style="animation-delay:0.2s">
+    <circle class="flame" cx="210" cy="45" r="16" fill="none" stroke="#f78166" stroke-width="2"/>
+    <text x="210" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#f78166" text-anchor="middle">2</text>
+    <text x="210" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Current Streak</text>
+  </g>
+
+  <g class="col" style="animation-delay:0.35s">
+    <text x="349" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#3fb950" text-anchor="middle">5</text>
+    <text x="349" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Longest Streak</text>
+  </g>
+
   <line x1="139" y1="20" x2="139" y2="120" stroke="#30363d"/>
   <line x1="277" y1="20" x2="277" y2="120" stroke="#30363d"/>
 </svg>
