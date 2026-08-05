@@ -1,0 +1,24 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3192"/>
+      <stop offset="100%" stop-color="#1BFFFF"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="200" fill="url(#bgGrad)"/>
+
+  <path d="M0,150 C150,190 300,110 450,140 C600,170 750,110 900,140 L900,200 L0,200 Z" fill="url(#waveGrad)"/>
+  <path d="M0,165 C150,200 300,130 450,160 C600,190 750,130 900,155 L900,200 L0,200 Z" fill="#ffffff" fill-opacity="0.12"/>
+
+  <text x="450" y="95" font-family="Segoe UI, Verdana, sans-serif" font-size="46" font-weight="700" fill="#ffffff" text-anchor="middle">
+    Ranithaa K R
+  </text>
+  <text x="450" y="128" font-family="Segoe UI, Verdana, sans-serif" font-size="18" fill="#E8FFFF" text-anchor="middle">
+    AI &amp; ML Engineer  |  Full Stack Developer
+  </text>
+</svg>
