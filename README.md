@@ -117,16 +117,16 @@ ServiceNow administration, workflow automation with Flow Designer, Agentic AI ba
 ## 📊 GitHub Overview
 
 <p align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Ranithaa28&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ranithaa28&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
+  <img height="160em" src="./profile/stats.svg" alt="GitHub Stats"/>
+  <img height="160em" src="./profile/top-langs.svg" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Ranithaa28&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="./profile/streak.svg" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Ranithaa28&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8&margin-h=8"/>
+  <img src="./profile/trophy.svg" alt="GitHub Trophies"/>
 </p>
 
 <div align="center">
