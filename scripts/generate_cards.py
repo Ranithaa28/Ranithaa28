@@ -100,13 +100,21 @@ def compute_streaks(user):
 def svg_card(title, rows, width=420, height=190):
     lines = [
         f'<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">',
+        "<style>",
+        "@keyframes fadeInUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }",
+        ".row { opacity: 0; animation: fadeInUp 0.6s ease-out forwards; }",
+        ".title { opacity: 0; animation: fadeInUp 0.5s ease-out forwards; }",
+        "</style>",
         f'<rect width="{width}" height="{height}" rx="10" fill="#0d1117" stroke="#30363d"/>',
-        f'<text x="20" y="32" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#58a6ff">{title}</text>',
+        f'<text class="title" x="20" y="32" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#58a6ff">{title}</text>',
     ]
     y = 65
-    for label, value in rows:
+    for i, (label, value) in enumerate(rows):
+        delay = 0.15 + i * 0.12
+        lines.append(f'<g class="row" style="animation-delay:{delay:.2f}s">')
         lines.append(f'<text x="20" y="{y}" font-family="Segoe UI, sans-serif" font-size="14" fill="#8b949e">{label}</text>')
         lines.append(f'<text x="{width-20}" y="{y}" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#c9d1d9" text-anchor="end">{value}</text>')
+        lines.append("</g>")
         y += 28
     lines.append("</svg>")
     return "\n".join(lines)
@@ -115,21 +123,33 @@ def svg_card(title, rows, width=420, height=190):
 def lang_svg(languages, width=420, height=190):
     lines = [
         f'<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">',
+        "<style>",
+        "@keyframes fadeInUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }",
+        ".legend-row { opacity: 0; animation: fadeInUp 0.6s ease-out forwards; }",
+        ".title { opacity: 0; animation: fadeInUp 0.5s ease-out forwards; }",
+        "</style>",
         f'<rect width="{width}" height="{height}" rx="10" fill="#0d1117" stroke="#30363d"/>',
-        '<text x="20" y="32" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#58a6ff">Most Used Languages</text>',
+        '<text class="title" x="20" y="32" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#58a6ff">Most Used Languages</text>',
     ]
     bar_y = 55
     x = 20
     bar_width = width - 40
     for _, pct, color in languages:
         seg = bar_width * (pct / 100)
-        lines.append(f'<rect x="{x:.1f}" y="{bar_y}" width="{seg:.1f}" height="10" rx="4" fill="{color}"/>')
+        lines.append(
+            f'<rect x="{x:.1f}" y="{bar_y}" width="0" height="10" rx="4" fill="{color}">'
+            f'<animate attributeName="width" from="0" to="{seg:.1f}" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>'
+            f'</rect>'
+        )
         x += seg
 
     ly = 90
-    for name, pct, color in languages:
+    for i, (name, pct, color) in enumerate(languages):
+        delay = 0.5 + i * 0.12
+        lines.append(f'<g class="legend-row" style="animation-delay:{delay:.2f}s">')
         lines.append(f'<circle cx="28" cy="{ly-4}" r="5" fill="{color}"/>')
         lines.append(f'<text x="40" y="{ly}" font-family="Segoe UI, sans-serif" font-size="13" fill="#c9d1d9">{name} {pct:.1f}%</text>')
+        lines.append("</g>")
         ly += 20
     lines.append("</svg>")
     return "\n".join(lines)
@@ -137,13 +157,30 @@ def lang_svg(languages, width=420, height=190):
 
 def streak_svg(current, longest, total, width=420, height=140):
     return f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes fadeInUp {{ from {{ opacity: 0; transform: translateY(8px); }} to {{ opacity: 1; transform: translateY(0); }} }}
+    @keyframes pulse {{ 0%,100% {{ opacity: 1; }} 50% {{ opacity: 0.55; }} }}
+    .col {{ opacity: 0; animation: fadeInUp 0.6s ease-out forwards; }}
+    .flame {{ animation: pulse 1.8s ease-in-out infinite; transform-origin: center; }}
+  </style>
   <rect width="{width}" height="{height}" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <text x="{width*0.17:.0f}" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#58a6ff" text-anchor="middle">{total}</text>
-  <text x="{width*0.17:.0f}" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Total</text>
-  <text x="{width*0.5:.0f}" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#f78166" text-anchor="middle">{current}</text>
-  <text x="{width*0.5:.0f}" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Current Streak</text>
-  <text x="{width*0.83:.0f}" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#3fb950" text-anchor="middle">{longest}</text>
-  <text x="{width*0.83:.0f}" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Longest Streak</text>
+
+  <g class="col" style="animation-delay:0.05s">
+    <text x="{width*0.17:.0f}" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#58a6ff" text-anchor="middle">{total}</text>
+    <text x="{width*0.17:.0f}" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Total</text>
+  </g>
+
+  <g class="col" style="animation-delay:0.2s">
+    <circle class="flame" cx="{width*0.5:.0f}" cy="45" r="16" fill="none" stroke="#f78166" stroke-width="2"/>
+    <text x="{width*0.5:.0f}" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#f78166" text-anchor="middle">{current}</text>
+    <text x="{width*0.5:.0f}" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Current Streak</text>
+  </g>
+
+  <g class="col" style="animation-delay:0.35s">
+    <text x="{width*0.83:.0f}" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#3fb950" text-anchor="middle">{longest}</text>
+    <text x="{width*0.83:.0f}" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Longest Streak</text>
+  </g>
+
   <line x1="{width*0.33:.0f}" y1="20" x2="{width*0.33:.0f}" y2="{height-20}" stroke="#30363d"/>
   <line x1="{width*0.66:.0f}" y1="20" x2="{width*0.66:.0f}" y2="{height-20}" stroke="#30363d"/>
 </svg>"""
