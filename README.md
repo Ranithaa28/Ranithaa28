@@ -28,28 +28,29 @@
 
 ## 🧰 Skills
 
-<table>
-<tr>
-<td valign="top" width="50%">
-
 **Core & Web**
-<img src="https://skillicons.dev/icons?i=java,js,html,css,mysql"/>
+
+<img src="https://skillicons.dev/icons?i=java,js,html,css,mysql" alt="Core and web skills"/>
+
+<br>
 
 **Frameworks**
-<img src="https://skillicons.dev/icons?i=spring,react,nextjs,fastapi"/>
 
-</td>
-<td valign="top" width="50%">
+<img src="https://skillicons.dev/icons?i=spring,react,nextjs,fastapi" alt="Framework skills"/>
+
+<br>
 
 **AI / ML**
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,py"/>
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,py" alt="AI and ML skills"/>
+
+<br>
 
 **Tools**
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman"/>
 
-</td>
-</tr>
-</table>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman" alt="Tool skills"/>
+
+<br>
 
 **Concept strength**
 
