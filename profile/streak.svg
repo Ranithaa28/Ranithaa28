@@ -1,28 +1,41 @@
-<svg width="420" height="140" viewBox="0 0 420 140" xmlns="http://www.w3.org/2000/svg">
+<svg width="420" height="150" viewBox="0 0 420 150" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1BFFFF"/>
+      <stop offset="100%" stop-color="#2E3192"/>
+    </linearGradient>
+  </defs>
+
   <style>
     @keyframes fadeInUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.55; } }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(1.08); } }
     .col { opacity: 0; animation: fadeInUp 0.6s ease-out forwards; }
     .flame { animation: pulse 1.8s ease-in-out infinite; transform-origin: center; }
   </style>
-  <rect width="420" height="140" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect width="420" height="150" rx="14" fill="url(#borderGrad)"/>
+  <rect x="2" y="2" width="416" height="146" rx="12" fill="url(#bgGrad)"/>
 
   <g class="col" style="animation-delay:0.05s">
-    <text x="71" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#58a6ff" text-anchor="middle">136</text>
-    <text x="71" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Total</text>
+    <text x="71" y="63" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#1BFFFF" text-anchor="middle">136</text>
+    <text x="71" y="86" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">📅 Total</text>
   </g>
 
   <g class="col" style="animation-delay:0.2s">
-    <circle class="flame" cx="210" cy="45" r="16" fill="none" stroke="#f78166" stroke-width="2"/>
-    <text x="210" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#f78166" text-anchor="middle">3</text>
-    <text x="210" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Current Streak</text>
+    <circle class="flame" cx="210" cy="50" r="18" fill="none" stroke="#f78166" stroke-width="2"/>
+    <text x="210" y="63" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#f78166" text-anchor="middle">3</text>
+    <text x="210" y="86" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">🔥 Current Streak</text>
   </g>
 
   <g class="col" style="animation-delay:0.35s">
-    <text x="349" y="55" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#3fb950" text-anchor="middle">5</text>
-    <text x="349" y="78" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">Longest Streak</text>
+    <text x="349" y="63" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#3fb950" text-anchor="middle">5</text>
+    <text x="349" y="86" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">🏆 Longest Streak</text>
   </g>
 
-  <line x1="139" y1="20" x2="139" y2="120" stroke="#30363d"/>
-  <line x1="277" y1="20" x2="277" y2="120" stroke="#30363d"/>
+  <line x1="139" y1="26" x2="139" y2="124" stroke="#30363d"/>
+  <line x1="277" y1="26" x2="277" y2="124" stroke="#30363d"/>
 </svg>

@@ -1,39 +1,52 @@
-<svg width="420" height="190" viewBox="0 0 420 190" xmlns="http://www.w3.org/2000/svg">
+<svg width="420" height="210" viewBox="0 0 420 210" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1BFFFF"/>
+      <stop offset="100%" stop-color="#2E3192"/>
+    </linearGradient>
+  </defs>
+
 <style>
 @keyframes fadeInUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 .legend-row { opacity: 0; animation: fadeInUp 0.6s ease-out forwards; }
 .title { opacity: 0; animation: fadeInUp 0.5s ease-out forwards; }
 </style>
-<rect width="420" height="190" rx="10" fill="#0d1117" stroke="#30363d"/>
-<text class="title" x="20" y="32" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#58a6ff">Most Used Languages</text>
-<rect x="20.0" y="55" width="0" height="10" rx="4" fill="#3178c6"><animate attributeName="width" from="0" to="257.7" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="277.7" y="55" width="0" height="10" rx="4" fill="#b07219"><animate attributeName="width" from="0" to="48.4" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="326.1" y="55" width="0" height="10" rx="4" fill="#3572A5"><animate attributeName="width" from="0" to="32.9" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="359.0" y="55" width="0" height="10" rx="4" fill="#f1e05a"><animate attributeName="width" from="0" to="24.1" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="383.0" y="55" width="0" height="10" rx="4" fill="#663399"><animate attributeName="width" from="0" to="12.9" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="396.0" y="55" width="0" height="10" rx="4" fill="#e34c26"><animate attributeName="width" from="0" to="3.0" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect width="420" height="210" rx="14" fill="url(#borderGrad)"/>
+<rect x="2" y="2" width="416" height="206" rx="12" fill="url(#bgGrad)"/>
+<text class="title" x="24" y="36" font-family="Segoe UI, sans-serif" font-size="19" font-weight="700" fill="#1BFFFF">🧠 Most Used Languages</text>
+<rect x="24.0" y="58" width="0" height="12" rx="6" fill="#3178c6"><animate attributeName="width" from="0" to="252.0" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="276.0" y="58" width="0" height="12" rx="6" fill="#b07219"><animate attributeName="width" from="0" to="47.3" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="323.3" y="58" width="0" height="12" rx="6" fill="#3572A5"><animate attributeName="width" from="0" to="32.6" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="355.9" y="58" width="0" height="12" rx="6" fill="#f1e05a"><animate attributeName="width" from="0" to="23.5" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="379.4" y="58" width="0" height="12" rx="6" fill="#663399"><animate attributeName="width" from="0" to="12.6" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="392.0" y="58" width="0" height="12" rx="6" fill="#e34c26"><animate attributeName="width" from="0" to="2.9" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
 <g class="legend-row" style="animation-delay:0.50s">
-<circle cx="28" cy="86" r="5" fill="#3178c6"/>
-<text x="40" y="90" font-family="Segoe UI, sans-serif" font-size="13" fill="#c9d1d9">TypeScript 67.8%</text>
+<circle cx="32" cy="92" r="5" fill="#3178c6"/>
+<text x="44" y="96" font-family="Segoe UI, sans-serif" font-size="13" fill="#e6edf3">TypeScript <tspan fill="#8b949e">67.7%</tspan></text>
 </g>
 <g class="legend-row" style="animation-delay:0.62s">
-<circle cx="28" cy="106" r="5" fill="#b07219"/>
-<text x="40" y="110" font-family="Segoe UI, sans-serif" font-size="13" fill="#c9d1d9">Java 12.7%</text>
+<circle cx="32" cy="114" r="5" fill="#b07219"/>
+<text x="44" y="118" font-family="Segoe UI, sans-serif" font-size="13" fill="#e6edf3">Java <tspan fill="#8b949e">12.7%</tspan></text>
 </g>
 <g class="legend-row" style="animation-delay:0.74s">
-<circle cx="28" cy="126" r="5" fill="#3572A5"/>
-<text x="40" y="130" font-family="Segoe UI, sans-serif" font-size="13" fill="#c9d1d9">Python 8.7%</text>
+<circle cx="32" cy="136" r="5" fill="#3572A5"/>
+<text x="44" y="140" font-family="Segoe UI, sans-serif" font-size="13" fill="#e6edf3">Python <tspan fill="#8b949e">8.8%</tspan></text>
 </g>
 <g class="legend-row" style="animation-delay:0.86s">
-<circle cx="28" cy="146" r="5" fill="#f1e05a"/>
-<text x="40" y="150" font-family="Segoe UI, sans-serif" font-size="13" fill="#c9d1d9">JavaScript 6.3%</text>
+<circle cx="32" cy="158" r="5" fill="#f1e05a"/>
+<text x="44" y="162" font-family="Segoe UI, sans-serif" font-size="13" fill="#e6edf3">JavaScript <tspan fill="#8b949e">6.3%</tspan></text>
 </g>
 <g class="legend-row" style="animation-delay:0.98s">
-<circle cx="28" cy="166" r="5" fill="#663399"/>
-<text x="40" y="170" font-family="Segoe UI, sans-serif" font-size="13" fill="#c9d1d9">CSS 3.4%</text>
+<circle cx="32" cy="180" r="5" fill="#663399"/>
+<text x="44" y="184" font-family="Segoe UI, sans-serif" font-size="13" fill="#e6edf3">CSS <tspan fill="#8b949e">3.4%</tspan></text>
 </g>
 <g class="legend-row" style="animation-delay:1.10s">
-<circle cx="28" cy="186" r="5" fill="#e34c26"/>
-<text x="40" y="190" font-family="Segoe UI, sans-serif" font-size="13" fill="#c9d1d9">HTML 0.8%</text>
+<circle cx="32" cy="202" r="5" fill="#e34c26"/>
+<text x="44" y="206" font-family="Segoe UI, sans-serif" font-size="13" fill="#e6edf3">HTML <tspan fill="#8b949e">0.8%</tspan></text>
 </g>
 </svg>
