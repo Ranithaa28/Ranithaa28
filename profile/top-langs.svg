@@ -2,21 +2,12 @@
 
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%">
-        <animate attributeName="stop-color" values="#0d1117;#12182a;#161b28;#101a2b;#0d1117" dur="10s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%">
-        <animate attributeName="stop-color" values="#161b28;#1a2440;#1c1030;#161b28" dur="10s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b28"/>
     </linearGradient>
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%">
-        <animate attributeName="stop-color" values="#1BFFFF;#A855F7;#F78166;#3FB950;#58A6FF;#1BFFFF" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%">
-        <animate attributeName="stop-color" values="#2E3192;#1BFFFF;#A855F7;#F78166;#2E3192" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="16s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#1BFFFF"/>
+      <stop offset="100%" stop-color="#2E3192"/>
     </linearGradient>
   </defs>
 
@@ -28,9 +19,9 @@
 <rect width="420" height="210" rx="14" fill="url(#borderGrad)"/>
 <rect x="2" y="2" width="416" height="206" rx="12" fill="url(#bgGrad)"/>
 <text class="title" x="24" y="36" font-family="Segoe UI, sans-serif" font-size="19" font-weight="700" fill="#1BFFFF">🧠 Most Used Languages</text>
-<rect x="24.0" y="58" width="0" height="12" rx="6" fill="#3178c6"><animate attributeName="width" from="0" to="251.8" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="275.8" y="58" width="0" height="12" rx="6" fill="#b07219"><animate attributeName="width" from="0" to="47.3" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="323.1" y="58" width="0" height="12" rx="6" fill="#3572A5"><animate attributeName="width" from="0" to="32.8" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="24.0" y="58" width="0" height="12" rx="6" fill="#3178c6"><animate attributeName="width" from="0" to="252.0" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="276.0" y="58" width="0" height="12" rx="6" fill="#b07219"><animate attributeName="width" from="0" to="47.3" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="323.3" y="58" width="0" height="12" rx="6" fill="#3572A5"><animate attributeName="width" from="0" to="32.6" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
 <rect x="355.9" y="58" width="0" height="12" rx="6" fill="#f1e05a"><animate attributeName="width" from="0" to="23.5" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
 <rect x="379.4" y="58" width="0" height="12" rx="6" fill="#663399"><animate attributeName="width" from="0" to="12.6" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
 <rect x="392.0" y="58" width="0" height="12" rx="6" fill="#e34c26"><animate attributeName="width" from="0" to="2.9" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
