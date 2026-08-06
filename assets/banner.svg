@@ -1,8 +1,13 @@
 <svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2E3192"/>
-      <stop offset="100%" stop-color="#1BFFFF"/>
+      <stop offset="0%">
+        <animate attributeName="stop-color" values="#2E3192;#A855F7;#F78166;#3FB950;#1BFFFF;#2E3192" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color" values="#1BFFFF;#2E3192;#A855F7;#F78166;#3FB950;#1BFFFF" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="16s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
