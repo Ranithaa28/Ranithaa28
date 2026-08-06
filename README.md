@@ -16,7 +16,15 @@
 
 ## 📌 Snapshot
 
-<img src="./assets/snapshot.svg" width="100%" alt="Snapshot"/>
+🎓 **Education** — B.E. Artificial Intelligence & Machine Learning, VSB Engineering College *(2023–2027, CGPA 8.41)*
+
+🧭 **Focus** — Full-stack development (Java + React ecosystem) with applied Machine Learning
+
+🏢 **Internships** — Infosys Internship 5.0 · ServiceNow University
+
+✅ **Flagship Project** — MarketMind, a completed AI startup-validation SaaS *(LangGraph + FastAPI + Next.js)*
+
+🎯 **Looking For** — Entry-level Software Engineer / ML Engineer roles
 
 <br>
 
