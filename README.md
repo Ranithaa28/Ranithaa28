@@ -2,7 +2,7 @@
 
 <img src="./assets/banner.svg" width="100%" alt="header banner"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=1BFFFF&center=true&vCenter=true&width=650&lines=Turning+data+into+decisions...;Building+AI-powered+SaaS+products;Java+%2B+React+by+day%2C+ML+by+night;Open+to+Software+%2F+ML+Engineer+roles" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=1BFFFF&center=true&vCenter=true&width=650&lines=Turning+data+into+decisions...;Shipped+an+AI-powered+SaaS+product;Java+%2B+React+by+day%2C+ML+by+night;Open+to+Software+%2F+ML+Engineer+roles" alt="Typing SVG"/>
 
 <p>
   <a href="https://linkedin.com/in/ranithaa28"><img src="https://img.shields.io/badge/-LinkedIn-1BFFFF?style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn"/></a>
@@ -58,7 +58,7 @@
 <tr>
 <td width="100%">
 
-### 🧩 MarketMind — AI-Powered Startup Validation Platform
+### 🧩 MarketMind — AI-Powered Startup Validation Platform ✅ *Completed*
 
 Converts raw startup ideas into structured, investor-ready validation reports using AI workflows.
 
