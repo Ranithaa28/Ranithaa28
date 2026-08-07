@@ -21,13 +21,13 @@
   <rect x="2" y="2" width="416" height="146" rx="12" fill="url(#bgGrad)"/>
 
   <g class="col" style="animation-delay:0.05s">
-    <text x="71" y="63" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#1BFFFF" text-anchor="middle">136</text>
+    <text x="71" y="63" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#1BFFFF" text-anchor="middle">151</text>
     <text x="71" y="86" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">📅 Total</text>
   </g>
 
   <g class="col" style="animation-delay:0.2s">
     <circle class="flame" cx="210" cy="50" r="18" fill="none" stroke="#f78166" stroke-width="2"/>
-    <text x="210" y="63" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#f78166" text-anchor="middle">3</text>
+    <text x="210" y="63" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#f78166" text-anchor="middle">0</text>
     <text x="210" y="86" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">🔥 Current Streak</text>
   </g>
 
