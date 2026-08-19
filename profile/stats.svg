@@ -27,7 +27,7 @@
 <g class="row" style="animation-delay:0.27s">
 <text x="24" y="104" font-family="Segoe UI, sans-serif" font-size="15">📦</text>
 <text x="48" y="104" font-family="Segoe UI, sans-serif" font-size="14" fill="#8b949e">Public Repos</text>
-<text x="396" y="104" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="end">11</text>
+<text x="396" y="104" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="end">10</text>
 </g>
 <g class="row" style="animation-delay:0.39s">
 <text x="24" y="134" font-family="Segoe UI, sans-serif" font-size="15">👥</text>
@@ -37,6 +37,6 @@
 <g class="row" style="animation-delay:0.51s">
 <text x="24" y="164" font-family="Segoe UI, sans-serif" font-size="15">🔥</text>
 <text x="48" y="164" font-family="Segoe UI, sans-serif" font-size="14" fill="#8b949e">Total Contributions</text>
-<text x="396" y="164" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="end">151</text>
+<text x="396" y="164" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="end">144</text>
 </g>
 </svg>

@@ -21,7 +21,7 @@
   <rect x="2" y="2" width="416" height="146" rx="12" fill="url(#bgGrad)"/>
 
   <g class="col" style="animation-delay:0.05s">
-    <text x="71" y="63" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#1BFFFF" text-anchor="middle">151</text>
+    <text x="71" y="63" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#1BFFFF" text-anchor="middle">144</text>
     <text x="71" y="86" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">📅 Total</text>
   </g>
 
