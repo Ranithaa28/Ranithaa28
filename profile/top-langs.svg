@@ -19,15 +19,15 @@
 <rect width="420" height="210" rx="14" fill="url(#borderGrad)"/>
 <rect x="2" y="2" width="416" height="206" rx="12" fill="url(#bgGrad)"/>
 <text class="title" x="24" y="36" font-family="Segoe UI, sans-serif" font-size="19" font-weight="700" fill="#1BFFFF">🧠 Most Used Languages</text>
-<rect x="24.0" y="58" width="0" height="12" rx="6" fill="#3178c6"><animate attributeName="width" from="0" to="254.2" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="278.2" y="58" width="0" height="12" rx="6" fill="#b07219"><animate attributeName="width" from="0" to="47.7" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="326.0" y="58" width="0" height="12" rx="6" fill="#3572A5"><animate attributeName="width" from="0" to="32.9" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="358.9" y="58" width="0" height="12" rx="6" fill="#f1e05a"><animate attributeName="width" from="0" to="21.7" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="380.6" y="58" width="0" height="12" rx="6" fill="#663399"><animate attributeName="width" from="0" to="11.6" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
-<rect x="392.2" y="58" width="0" height="12" rx="6" fill="#e34c26"><animate attributeName="width" from="0" to="2.8" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="24.0" y="58" width="0" height="12" rx="6" fill="#3178c6"><animate attributeName="width" from="0" to="254.5" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="278.5" y="58" width="0" height="12" rx="6" fill="#b07219"><animate attributeName="width" from="0" to="47.7" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="326.2" y="58" width="0" height="12" rx="6" fill="#3572A5"><animate attributeName="width" from="0" to="32.9" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="359.1" y="58" width="0" height="12" rx="6" fill="#f1e05a"><animate attributeName="width" from="0" to="21.7" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="380.8" y="58" width="0" height="12" rx="6" fill="#663399"><animate attributeName="width" from="0" to="11.5" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
+<rect x="392.3" y="58" width="0" height="12" rx="6" fill="#e34c26"><animate attributeName="width" from="0" to="2.8" dur="1s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/></rect>
 <g class="legend-row" style="animation-delay:0.50s">
 <circle cx="32" cy="92" r="5" fill="#3178c6"/>
-<text x="44" y="96" font-family="Segoe UI, sans-serif" font-size="13" fill="#e6edf3">TypeScript <tspan fill="#8b949e">68.3%</tspan></text>
+<text x="44" y="96" font-family="Segoe UI, sans-serif" font-size="13" fill="#e6edf3">TypeScript <tspan fill="#8b949e">68.4%</tspan></text>
 </g>
 <g class="legend-row" style="animation-delay:0.62s">
 <circle cx="32" cy="114" r="5" fill="#b07219"/>
