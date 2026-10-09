@@ -27,7 +27,7 @@
 
   <g class="col" style="animation-delay:0.2s">
     <circle class="flame" cx="210" cy="50" r="18" fill="none" stroke="#f78166" stroke-width="2"/>
-    <text x="210" y="63" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#f78166" text-anchor="middle">2</text>
+    <text x="210" y="63" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#f78166" text-anchor="middle">0</text>
     <text x="210" y="86" font-family="Segoe UI, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">🔥 Current Streak</text>
   </g>
 
